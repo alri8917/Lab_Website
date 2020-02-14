@@ -18,6 +18,62 @@
 	<br>
 	<div class="container">
 		<form action="home.html">
+			<div class ="form-group"> 
+				<label for="input_name">Name:</label>
+				<input type="text" id="input_id" name="field_name" placeholder="Enter Name">
+			</div>
+			<div class="form-group">
+				<label for="input_email">Email:</label>
+				<input type="email" name="my_email_field" placeholder="Enter Email">
+			</div>
+			<div class="form-group">
+				<label for="input_pass">Password:</label>
+				<input type="password" name="my_pw_field" placeholder="Enter Password">
+			</div>
+			<div class="form-group">
+				<label for="input_pass_conf">Confirm Password:</label>
+				<input type="password" name="my_pw_field" placeholder="Confirm Password">
+			</div>
+			<label for="custom-radio">CU Boulder Alumni?</label>
+			<div class="custom-control custom-radio">
+  				<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  				<label class="custom-control-label" for="customRadio1">Yes</label>
+			</div>
+			<div class="custom-control custom-radio">
+  				<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  				<label class="custom-control-label" for="customRadio1">No</label>
+			</div>
+			<label for="custom-radio">CU Boulder Student?</label>
+			<div class="custom-control custom-radio">
+  				<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  				<label class="custom-control-label" for="customRadio1">Yes</label>
+			</div>
+			<div class="custom-control custom-radio">
+  				<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  				<label class="custom-control-label" for="customRadio1">No</label>
+			</div>
+			<label for="custom-radio">Student Status</label>
+			<div class="custom-control custom-radio">
+  				<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  				<label class="custom-control-label" for="customRadio1">Undergrad</label>
+  				<select class="custom-select">
+  					<option selected>Select Student Status</option>
+		  			<option value="1">Freshman</option>
+  					<option value="2">Sophomore</option>
+  					<option value="3">Junior</option>
+  					<option value="4">Senior</option>
+				</select>
+			</div>
+			<div class="custom-control custom-radio">
+  				<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  				<label class="custom-control-label" for="customRadio1">Grad</label>
+  				<select class="custom-select">
+  					<option selected>Select Student Status</option>
+	  				<option value="1">MA</option>
+  					<option value="2">MBA</option>
+  					<option value="3">PhD</option>
+				</select>
+			</div>
 			<!--
 				Todo: Create a form with the following fields:
 					1. Name Text Field
